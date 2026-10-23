@@ -6,7 +6,7 @@ Version: **1.0.1** | Author: **Arion** | License: **MIT**
 
 [Download v1.0.1 for SPT 4.1.6](https://github.com/Arion-Siles/Arion-AllWeaponsFlea/raw/refs/heads/main/downloads/Arion_AllWeaponsFlea_SPT_4.1.6_v1.0.1.zip)
 
-In-game testing is still pending; see validation status below.
+Tested in-game by Arion and confirmed working on SPT 4.1.6.
 
 ## Features
 
@@ -61,7 +61,7 @@ The Release build and automated checks passed against the official SPT 4.1.6 lib
 - 4,515 other templates retain their original flea-sale flag.
 - Custom weapon restrictions, positive offer counts, and repeated application were checked.
 
-**An in-game purchase and full client/server gameplay test have not yet been performed.** Automated checks do not replace in-game testing. Do not describe this release as fully gameplay-tested until that verification is complete.
+**Arion has tested the mod in-game on SPT 4.1.6 and confirmed that it works.**
 
 ## Build from source
 
