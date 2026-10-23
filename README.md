@@ -31,7 +31,7 @@ Tested in-game by Arion and confirmed working on SPT 4.1.6.
 On an unmodified SPT 4.1.6 database, the server message is:
 
 ```text
-[Arion All Weapons Flea] 158 weapons enabled; 26 BSG restrictions removed.
+[All Weapons Flea] 158 weapons enabled; 26 BSG restrictions removed.
 ```
 
 Counts may differ when other mods are installed. Examples of previously restricted weapons include the MDR 7.62, Mk-18, AXMC, and MCX Spear.
