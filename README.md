@@ -4,7 +4,7 @@ A small server-side mod for **SPT 4.1.6** that removes flea-market restrictions 
 
 Version: **1.0.1** | Author: **Arion** | License: **MIT**
 
-[Download v1.0.1 for SPT 4.1.6](https://github.com/Arion-Siles/All-Weapons-Flea/raw/refs/heads/main/downloads/Arion_AllWeaponsFlea_SPT_4.1.6_v1.0.1.zip)
+[Download v1.0.1 for SPT 4.1.6](https://github.com/Arion-Siles/All-Weapons-Flea/raw/refs/heads/main/downloads/AllWeaponsFlea_SPT_4.1.6_v1.0.1.zip)
 
 Tested in-game by Arion and confirmed working on SPT 4.1.6.
 
