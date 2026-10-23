@@ -10,7 +10,7 @@ using SPTarkov.Server.Core.Servers;
 using Range = SemanticVersioning.Range;
 using Version = SemanticVersioning.Version;
 
-namespace Arion.AllWeaponsFlea;
+namespace AllWeaponsFlea;
 
 public sealed class Metadata : IModMetadata
 {
@@ -40,7 +40,7 @@ public sealed class Mod(TemplateTable templates, RagfairConfig ragfair, ItemHelp
             .Select(item => item.Id).ToHashSet();
 
         var changed = Unlock(templates, ragfair, weapons);
-        Console.WriteLine($"[Arion All Weapons Flea] {weapons.Count} weapons enabled; {changed} BSG restrictions removed.");
+        Console.WriteLine($"[All Weapons Flea] {weapons.Count} weapons enabled; {changed} BSG restrictions removed.");
         return Task.CompletedTask;
     }
 

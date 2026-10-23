@@ -24,7 +24,7 @@ Tested in-game by Arion and confirmed working on SPT 4.1.6.
 2. Download the release ZIP, not GitHub's automatically generated source archive or the publishing kit.
 3. Extract the ZIP into your SPT installation folder and merge the included `SPT_Runtime` directory with the existing one.
 4. Check that the DLL is located at:
-   `SPT_Runtime/user/mods/Arion-AllWeaponsFlea/Arion.AllWeaponsFlea.dll`
+   `SPT_Runtime/user/mods/AllWeaponsFlea/AllWeaponsFlea.dll`
 5. Start the server, then start the game.
 6. Search the flea for a previously restricted weapon, such as the DT MDR 7.62x51. Include player offers in your search filters.
 
@@ -48,9 +48,13 @@ Counts may differ when other mods are installed. Examples of previously restrict
 - Other flea configuration mods may override or conflict with these changes. SVM and The Blacklist are not dependencies.
 - Fika compatibility has not been tested.
 
+## Updating from the earlier package
+
+Close the game and server. Remove the old `SPT_Runtime/user/mods/Arion-AllWeaponsFlea` folder before installing this package. Do not keep both copies installed.
+
 ## Uninstallation
 
-Close the game and server, remove only `SPT_Runtime/user/mods/Arion-AllWeaponsFlea`, then restart both. No profile reset is required by this mod. Items already purchased remain in the player's inventory.
+Close the game and server, remove only `SPT_Runtime/user/mods/AllWeaponsFlea`, then restart both. No profile reset is required by this mod. Items already purchased remain in the player's inventory.
 
 ## Validation status
 
@@ -71,7 +75,7 @@ Install the .NET 10 SDK, then run from the repository root:
 dotnet build src/AllWeaponsFlea.csproj -c Release
 ```
 
-Output: `src/bin/Release/net10.0/Arion.AllWeaponsFlea.dll`.
+Output: `src/bin/Release/net10.0/AllWeaponsFlea.dll`.
 Only the mod DLL belongs in the release; SPT supplies its own runtime libraries. Never bundle the build output directory wholesale.
 
 For database checks, obtain the official server source at tag `4.1.6`, fetch its Git LFS assets, and run:
@@ -92,6 +96,7 @@ This mod does not contain API keys, credentials, telemetry, update checks, or ex
 
 ### 1.0.1
 
+- Standardized the download, installation folder, assembly, and server message names to AllWeaponsFlea.
 - Translated the server message and documentation into English.
 - Standardized the runtime metadata name to `AllWeaponsFlea`.
 - Kept the credential-free package and excluded debug symbols and build paths.
