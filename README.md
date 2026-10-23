@@ -1,10 +1,10 @@
-# Arion - All Weapons Flea
+# All Weapons Flea
 
 A small server-side mod for **SPT 4.1.6** that removes flea-market restrictions from valid weapons while preserving SPT's normal price calculation and restrictions on ammunition, armor, and other non-weapon items.
 
 Version: **1.0.1** | Author: **Arion** | License: **MIT**
 
-[Download v1.0.1 for SPT 4.1.6](https://github.com/Arion-Siles/Arion-AllWeaponsFlea/raw/refs/heads/main/downloads/Arion_AllWeaponsFlea_SPT_4.1.6_v1.0.1.zip)
+[Download v1.0.1 for SPT 4.1.6](https://github.com/Arion-Siles/All-Weapons-Flea/raw/refs/heads/main/downloads/Arion_AllWeaponsFlea_SPT_4.1.6_v1.0.1.zip)
 
 Tested in-game by Arion and confirmed working on SPT 4.1.6.
 
