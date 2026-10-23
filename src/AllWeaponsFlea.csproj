@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.1</Version>
+    <AssemblyName>Arion.AllWeaponsFlea</AssemblyName>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SPTushonka.Server.Core" Version="4.1.6" />
+  </ItemGroup>
+</Project>
