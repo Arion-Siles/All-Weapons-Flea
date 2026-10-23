@@ -48,10 +48,6 @@ Counts may differ when other mods are installed. Examples of previously restrict
 - Other flea configuration mods may override or conflict with these changes. SVM and The Blacklist are not dependencies.
 - Fika compatibility has not been tested.
 
-## Updating from the earlier package
-
-Close the game and server. Remove the old `SPT_Runtime/user/mods/Arion-AllWeaponsFlea` folder before installing this package. Do not keep both copies installed.
-
 ## Uninstallation
 
 Close the game and server, remove only `SPT_Runtime/user/mods/AllWeaponsFlea`, then restart both. No profile reset is required by this mod. Items already purchased remain in the player's inventory.
@@ -101,7 +97,3 @@ This mod does not contain API keys, credentials, telemetry, update checks, or ex
 - Standardized the runtime metadata name to `AllWeaponsFlea`.
 - Kept the credential-free package and excluded debug symbols and build paths.
 - No gameplay logic changes from the initial private 1.0.0 build.
-
-## Development
-
-Developed with AI assistance. The source is included for review, and the validation limits are documented above.
